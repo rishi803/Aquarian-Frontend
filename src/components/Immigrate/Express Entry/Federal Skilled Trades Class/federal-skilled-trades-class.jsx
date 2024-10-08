@@ -120,7 +120,7 @@ const faqItems = [
   },
 ];
 
-export default function PR() {
+export default function federalSkilledTradesClass() {
   return (
     <div
       style={{

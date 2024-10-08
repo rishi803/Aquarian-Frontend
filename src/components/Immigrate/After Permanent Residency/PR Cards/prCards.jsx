@@ -52,7 +52,7 @@ If you fail to meet these requirements, you could be at risk of losing your perm
   },
 ];
 
-export default function PR() {
+export default function prCards() {
 
   const aboutPRCRef = useRef(null);
   const applyWhenPRCRef = useRef(null);

@@ -100,7 +100,7 @@ const faqItems = [
   },
 ];
 
-export default function PR() {
+export default function canadianExperienceClass() {
   return (
     <div
       style={{

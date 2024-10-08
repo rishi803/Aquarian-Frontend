@@ -29,7 +29,7 @@ const faqItems = [
   },
 ];
 
-export default function ParentsAndGrandparentsProgram() {
+export default function CanadianSpousalSponsorship() {
   const aboutRef = useRef(null);
   const childrenRef = useRef(null);
   const otherRef = useRef(null);
@@ -291,6 +291,7 @@ export default function ParentsAndGrandparentsProgram() {
           </div>
           <FaqBox faqItems={faqItems} />
           <ReadyToStartCard />
+          <span></span>
         </div>
       </div>
     </div>

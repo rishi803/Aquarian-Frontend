@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 
-import NestedTableOfContent from "./../../shared/NestedTableOfContent.jsx";
-import FaqBox from "./../../shared/NestedFaqBox.jsx";
-import ReadyToStartCard from "./../../shared/ReadyToStart.jsx";
-import SiteMapMenu from "./../../globalComponents/Sidebar/SiteMapMenu.jsx";
+import NestedTableOfContent from "../../shared/NestedTableOfContent.jsx";
+import FaqBox from "../../shared/NestedFaqBox.jsx";
+import ReadyToStartCard from "../../shared/ReadyToStart.jsx";
+import SiteMapMenu from "../../globalComponents/Sidebar/SiteMapMenu.jsx";
 
 const faqItems = [
   {
@@ -48,7 +48,7 @@ const faqItems = [
   },
 ];
 
-export default function expressEntry() {
+export default function PR() {
   const aboutRef = useRef(null);
   const factorRef = useRef(null);
   const workRef = useRef(null);

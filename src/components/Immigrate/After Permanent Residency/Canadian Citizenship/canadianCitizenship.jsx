@@ -42,7 +42,8 @@ const faqItems = [
   }
 ];
 
-export default function PR() {
+export default function canadianCitizenship() {
+  alert('gg');
   const aboutRef = useRef(null);
   const pathwayRef = useRef(null);
   const birthRef = useRef(null);
@@ -91,8 +92,8 @@ export default function PR() {
         {/* <SiteMapMenu type="I" h1="Permanent Residency"></SiteMapMenu> */}
         <SiteMapMenu
           type="I"
-          h1="Express Entry"
-          h2="Comprehensive Ranking System (CRS)"
+          h1="After Permanent Residency"
+          h2="Canadian Citizenship"
         ></SiteMapMenu>
 
         <div class="pages-content-div">

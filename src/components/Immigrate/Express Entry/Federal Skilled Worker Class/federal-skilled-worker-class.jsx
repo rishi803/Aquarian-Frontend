@@ -159,7 +159,7 @@ const faqItems = [
   },
 ];
 
-export default function PR() {
+export default function federalSkilledWorkerClass() {
 
 const aboutfswRef= useRef(null);
 const eligibilityfswRef= useRef(null);

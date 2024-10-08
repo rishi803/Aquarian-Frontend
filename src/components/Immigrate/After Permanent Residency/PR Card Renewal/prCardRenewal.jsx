@@ -28,7 +28,7 @@ const faqItems = [
   
 ];
 
-export default function PR() {
+export default function prCardRenewal() {
 
   const aboutPRCRef = useRef(null);
   const eligPRCRef = useRef(null);

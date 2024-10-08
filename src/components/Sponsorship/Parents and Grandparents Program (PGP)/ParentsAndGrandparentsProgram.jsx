@@ -6,16 +6,7 @@ import ReadyToStartCard from "../../shared/ReadyToStart";
 
 import SiteMapMenu from "../../globalComponents/Sidebar/SiteMapMenu.jsx";
 
-const languageProficiencyTableData = [
-  {
-    language: "English",
-    text: "CLB 7",
-  },
-  {
-    language: "French",
-    text: "NCLC7",
-  },
-];
+
 
 const faqItems = [
   {
@@ -85,6 +76,7 @@ export default function ParentsAndGrandparentsProgram() {
         background: "#EEE",
       }}
     >
+   
       <div className="pages-content-wrapper">
         {/* <SiteMapMenu type="I" h1="Permanent Residency"></SiteMapMenu> */}
         <SiteMapMenu
@@ -103,7 +95,7 @@ export default function ParentsAndGrandparentsProgram() {
               Parents and Grandparents Program
               <span class="cec-font"> (PGP)</span>{" "}
             </div>
-
+            <div>rishi</div>
             <div class="pages-paragraph space-fix intro-size-fix">
               The Parents and Grandparents Program is an immigration program,
               whereby family members are sponsored by Canadian Citizens and
